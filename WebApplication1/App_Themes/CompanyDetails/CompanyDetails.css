@@ -1,0 +1,11 @@
+﻿body {
+}
+
+.gridview {
+    width: 500px;
+    height: 300px;
+    margin: 100px auto auto 300px;
+    background-color: rgba(255,255,255,0.75);
+    font-family: Calibri;
+    font-size: large;
+}

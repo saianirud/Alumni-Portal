@@ -1,0 +1,85 @@
+﻿body {
+    margin:0 0 0 0;
+}
+
+.topbar {
+    background-color: black;
+    width: 100%;
+    height: 42px;
+}
+
+.logout {
+    color: white;
+    background-color: black;
+    border: none;
+    float: right;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    font-size: large;
+    cursor:grab;
+}
+
+.logout:hover {
+    background-color: rgb(75,75,75);
+}
+
+.background {
+    background-image: url(../../Images/manipal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 0 0;
+    height: inherit;
+}
+
+.user {
+    border: 2px groove;
+    border-radius: 5px;
+    border-color: black;
+    float: right;
+    margin: 30px 30px 0 0;
+    width: 200px;
+    height: 150px;
+}
+
+.username {
+    color: black;
+    background-color:#afb3bc;
+    border-bottom:1px solid;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    height: 35%;
+    padding: 10px;
+}
+
+.name{
+    font-size:x-large;
+    overflow:scroll;
+}
+
+.userdetails {
+    color: black;
+    height: 65%;
+    padding: 10px;
+}
+
+.sidebar {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 22%;
+}
+
+.sidebarcontent {
+    float: left;
+    background-color:black;
+    border:none;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    cursor: grab;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: large;
+}
+
+.sidebarcontent:hover {
+    background-color: rgba(135, 123, 72,0.4);
+}

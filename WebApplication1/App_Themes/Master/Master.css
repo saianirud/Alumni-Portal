@@ -1,0 +1,53 @@
+﻿body {
+    margin:0 0 0 0;
+}
+
+.alumni{
+    font-family:Algerian;
+    font-size:xx-large;
+    text-align:center;
+    color:coral;
+    border-color:aliceblue;
+}
+
+.logo{
+    height:50px;
+    width:200px;
+    float: left;
+    padding: 0px 20px 10px 5px;
+}
+
+.alumniportal {
+    background-color: white;
+    height: 50px;
+    padding: 15px 0px 15px 0px;
+}
+
+.topbar {
+    background-color: black;
+    width: 100%;
+    height: 42px;
+}
+
+.background {
+    background-image: url(../../Images/manipal1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 0 0 0;
+    height:inherit;
+}
+
+.login {
+    color:white;
+    float: left;
+    background-color:black;
+    border:none;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    font-size: large;
+    cursor:grab;
+}
+
+.login:hover {
+    background-color: rgb(75,75,75);
+}

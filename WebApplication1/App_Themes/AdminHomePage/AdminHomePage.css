@@ -1,0 +1,54 @@
+﻿body {
+}
+
+.maindiv{
+    margin-top:100px;
+    margin-left:250px;
+}
+
+.gridview {
+    background-color: rgba(255,255,255,0.75);
+    font-family: Calibri;
+    font-size: large;
+    width:750px;
+}
+
+.filterbutton{
+    width:3%;
+    height:20px;
+}
+
+.filterdiv {
+    display:none;
+    background-color: aliceblue;
+    width: 750px;
+    height: 50px;
+}
+
+.animate {
+    animation: animatezoom 0.3s
+}
+
+@keyframes animatezoom {
+    from {
+        width:750px;
+        height:0px;
+    }
+
+    to {
+        width:750px;
+        height:50px;
+    }
+}
+
+.ddldiv{
+    padding-top:10px;
+    text-align:center;
+    float:left;
+    width:28%;
+}
+
+.button{
+    color:white;
+    margin-top:3px;
+}
